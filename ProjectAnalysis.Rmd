@@ -84,6 +84,12 @@ pred <- predict(modFit,data_test)
 answers=as.character(pred)
 answers
 ```
+**Conclusion**
+After trying different training methods I found that, for this problem, using 
+random forest was giving very good results. This program was able to predict correctly on all 20 test cases. This is why I chose this particular model for this particular problem: accurate predictions and very short trainig times.
+```{r}
+modFit$times$everything
+```
 
 
 
